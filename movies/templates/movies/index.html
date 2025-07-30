@@ -1,0 +1,9 @@
+{% extends "movies/layout.html" %} {% block body %}
+<h1>Movie list</h1>
+<ul>
+  {%for movie in movies %}
+  <li>Movie {{movie.id}}: {{movie.title}} ({{movie.year}})</li>
+  {%endfor%}
+</ul>
+
+{% endblock %}
