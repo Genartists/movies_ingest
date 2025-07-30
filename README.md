@@ -67,23 +67,6 @@ This project is a simple movie inventory system built with Django. It demonstrat
       >>> print(Movie.objects.all())
       ```
 
-## Project Structure
-
-.
-├── manage.py
-├── ingest_movies.py
-├── movies.csv / movies.json
-├── week11/
-│ └── settings.py, ...
-└── movies/
-└── models.py, views.py, ...
-
-yaml
-Copy
-Edit
-
-## Author
-
 - Harry Le
 
 ---
